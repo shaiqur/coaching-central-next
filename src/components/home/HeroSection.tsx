@@ -2,6 +2,10 @@
 //import shadaburImage2 from "@assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg";
 //import shadaburImage3 from "@assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg";
 import Image from "next/image";
+import image1 from "../../../public/assets/image3.jpeg";
+import image2 from "../../../public/assets/image3.jpeg";
+import image3 from "../../../public/assets/image3.jpeg";
+import image4 from "../../../public/assets/image3.jpeg";
 
 const HeroSection = () => {
   return (
@@ -35,7 +39,7 @@ const HeroSection = () => {
             <div className="grid grid-cols-2 gap-4">
               {/* Students learning in classroom */}
               <Image
-                src="/assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg"
+                src={image1}
                 alt="..."
                 width={500}
                 height={500}
@@ -43,7 +47,7 @@ const HeroSection = () => {
               />
               {/* Engaged student in class */}
               <Image
-                src="/assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg"
+                src={image2}
                 alt="..."
                 width={500}
                 height={500}
@@ -51,7 +55,7 @@ const HeroSection = () => {
               />
               {/* Science lab practical session */}
               <Image
-                  src="/assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg"
+                  src={image3}
                   alt="..."
                   width={500}
                   height={500}
@@ -59,7 +63,7 @@ const HeroSection = () => {
                 />
               {/* Teacher explaining concepts */}
               <Image
-                  src="/assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg"
+                  src={image4}
                   alt="..."
                   width={500}
                   height={500}
