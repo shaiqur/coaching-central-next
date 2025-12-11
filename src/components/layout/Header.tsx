@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   const navItems = [
-    { href: "#home", label: "Home" },
+    { href: "#home", label: "Home",className: "font-bold"},
     { href: "#about", label: "About" },
     { href: "#courses", label: "Courses" },
     { href: "#teachers", label: "Faculty" },
@@ -41,8 +41,11 @@ const Header = () => {
           {/* Logo / Title */}
           <Link href="#home" className="flex items-center space-x-2">
             <div className="text-3xl font-bold">
-              <span className="text-primary">Excellence</span>{" "}
-              <span className="text-gray-800">Academy</span>
+              <span className="text-[#0C3559]">GyanNest</span>{" "}
+              <span className="text-[#0C3559]">Academy</span>
+      <p className="text-sm text-gray-600 mt-1 tracking-wide text-center">
+    From Basics To Brilliance
+  </p>
             </div>
           </Link>
 

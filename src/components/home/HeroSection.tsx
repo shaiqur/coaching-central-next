@@ -9,16 +9,16 @@ import image4 from "../../../public/assets/image3.jpeg";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative bg-gradient-to-r from-primary to-primary-dark text-white">
+    <section id="home" className="relative bg-[#87CEEB] text-[#0C3559]">
       <div className="absolute inset-0 bg-black opacity-20"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
-              Your Path to <span className="text-accent">Academic Excellence</span>
+              Your Path to <span>Academic Excellence</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 max-w-lg">
-              Specialized coaching for 6th-10th academics, NEET, and JEE preparation with proven success rates and expert faculty.
+              Specialized coaching for 7th-10th academics, NEET, and JEE preparation with our expert faculty.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 

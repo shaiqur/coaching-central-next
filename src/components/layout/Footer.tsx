@@ -12,7 +12,7 @@ const Footer = () => {
   ];
 
   const programs = [
-    { label: "School Program (6-10th)", href: "#courses" },
+    { label: "School Program (7-10th)", href: "#courses" },
     { label: "NEET Preparation", href: "#courses" },
     { label: "JEE Main/Advanced", href: "#courses" },
     { label: "Foundation Courses", href: "#courses" },
@@ -25,11 +25,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-4 text-white">
-              Excellence Academy
+              GyanNest Academy
             </h3>
             <p className="text-gray-400 mb-4">
               Shaping the future of students with personalized attention, expert
-              faculty, and proven results.
+              faculty, and holistic development.
             </p>
           </div>
 
@@ -77,19 +77,18 @@ const Footer = () => {
               Contact
             </h4>
             <p className="text-gray-400">
-              Address line 1<br />
-              City, State, PIN
+              Bazar Road Zero Mile Araria, Near Electronic Bazar(LG Showroom).<br />Pin:854311,Araria, Bihar,India
             </p>
             <p className="mt-3 text-gray-400">
-              Phone: <span className="font-medium text-white">+91-XXXXXXXXXX</span>
+              Phone: <span className="font-medium text-white">+91 9304233660</span>
             </p>
             <p className="mt-1 text-gray-400">
               Email:{" "}
               <a
-                href="mailto:example@example.com"
+                href="mailto:shadabur.rahman@gyannestacademy.com"
                 className="text-primary hover:text-primary-dark"
               >
-                example@example.com
+                shadabur.rahman@gyannestacademy.com
               </a>
             </p>
           </div>
@@ -97,7 +96,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 pt-4 flex flex-col md:flex-row items-center justify-between">
           <p className="text-gray-400 mb-4 md:mb-0">
-            &copy; {currentYear} Excellence Academy. All rights reserved.
+            &copy; {currentYear} GyanNest Academy. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-400 hover:text-white">
