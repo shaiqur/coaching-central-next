@@ -60,10 +60,23 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { platform: "instagram", color: "bg-pink-600 hover:bg-pink-700", link: "#" },
-    { platform: "youtube", color: "bg-red-600 hover:bg-red-700", link: "#" },
-    { platform: "facebook", color: "bg-blue-600 hover:bg-blue-700", link: "#" },
+    {
+      platform: "instagram",
+      color: "bg-pink-600 hover:bg-pink-700",
+      link: "https://instagram.com/YOUR_USERNAME"
+    },
+    {
+      platform: "facebook",
+      color: "bg-blue-600 hover:bg-blue-700",
+      link: "https://facebook.com/YOUR_PAGE"
+    },
+    {
+      platform: "youtube",
+      color: "bg-red-600 hover:bg-red-700",
+      link: "https://youtube.com/@YOUR_CHANNEL"
+    }
   ];
+  
 
   const iconMap: Record<string, React.ReactNode> = {
     map: <MapPin size={20} />,
@@ -124,19 +137,25 @@ const ContactSection = () => {
 
       {/* Social Links */}
       <div className="mt-8">
-        <h4 className="text-lg font-semibold text-gray-800 mb-3">Follow Us</h4>
+        <h4 className="text-lg font-semibold text-gray-800 mb-3">
+          Follow Us
+        </h4>
+
         <div className="flex space-x-4">
           {socialLinks.map((social, i) => (
             <a
               key={i}
               href={social.link}
-              className={`${social.color} text-white w-10 h-10 rounded-full flex items-center justify-center shadow hover:scale-110 transition`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${social.color} text-white w-10 h-10 rounded-full flex items-center justify-center shadow hover:scale-110 transition-transform`}
             >
               {socialIconMap[social.platform]}
             </a>
           ))}
         </div>
       </div>
+
     </div>
 
     {/* MAP BOX */}
