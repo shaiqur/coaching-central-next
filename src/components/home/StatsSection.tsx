@@ -1,9 +1,9 @@
 const StatsSection = () => {
   const stats = [
-    { value: "15+", label: "Years Experience" },
-    { value: "5000+", label: "Students Enrolled" },
-    { value: "30+", label: "Qualified Teachers" },
-    { value: "98%", label: "Success Rate" }
+    { value: "100%", label: "Commitment to Quality Learning" },
+    { value: "Library", label: "For Self-Study & Reference" },
+    { value: "15+", label: "Qualified Teachers" },
+    { value: "100%", label: "NCERT-Aligned Teaching" }
   ];
 
   return (

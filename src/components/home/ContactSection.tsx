@@ -40,22 +40,22 @@ const ContactSection = () => {
     {
       icon: "map",
       title: "Address",
-      content: ["123 Education Avenue, Knowledge Park", "New Delhi, 110001, India"],
+      content: [" Bazar Road Zero Mile Araria, Near Electronic Bazar(LG Showroom),854311,Araria, Bihar,India"],
     },
     {
       icon: "phone",
       title: "Phone",
-      content: ["+91 98765 43210 (Admissions)", "+91 98765 43211 (General Inquiries)"],
+      content: ["+91 9304233660 (Admissions)", "+91 7274853381 (General Inquiries)"],
     },
     {
       icon: "mail",
       title: "Email",
-      content: ["info@example.com", "support@example.com"],
+      content: ["gyannestacademy2026@gmail.com", "shadabur.rahman@gyannestacademy.com","athernaseem687@gmail.com"],
     },
     {
       icon: "clock",
       title: "Working Hours",
-      content: ["Monday - Saturday: 8:00 AM - 8:00 PM", "Sunday: Closed"],
+      content: ["Monday - Saturday: 6:00 AM - 8:00 PM", "Sunday: Closed"],
     },
   ];
 
@@ -220,6 +220,7 @@ const ContactSection = () => {
             <option value="Course Information">Course Information</option>
             <option value="Fees">Fee Structure</option>
             <option value="Faculty">Faculty Information</option>
+            <option value="Join As Faculty">Join As a Faculty</option>
             <option value="Other">Other</option>
           </select>
         </div>
@@ -280,7 +281,7 @@ const ContactSection = () => {
 
       {/* FLOATING WHATSAPP BUTTON ONLY */}
       <a
-        href="https://wa.me/919876543210"
+        href="https://wa.me/919911058679"
         target="_blank"
         rel="noopener noreferrer"
         className="

@@ -35,8 +35,8 @@ const CoursesSection = () => {
       type: "school",
       title: "Comprehensive School Program",
       image: shadaburImage1,
-      badge: { text: "Grades 6-10", color: "blue" },
-      duration: "1-2 Years",
+      badge: { text: "Grades 7-10", color: "blue" },
+      duration: "1 Years",
       description:
         "Thorough coverage of school curriculum with additional focus on building strong fundamentals across all subjects.",
       features: [
@@ -51,7 +51,7 @@ const CoursesSection = () => {
       title: "Class 11th-12th Program",
       image: shadaburImage2,
       badge: { text: "Coming Soon", color: "purple" },
-      duration: "2 Years",
+      duration: "1-2 Years",
       description:
         "Comprehensive higher secondary education program covering all subjects with focus on board exam preparation and foundations for competitive exams.",
       features: [
@@ -66,7 +66,7 @@ const CoursesSection = () => {
       title: "JEE (Main & Advanced) Program",
       image: shadaburImage3,
       badge: { text: "Coming Soon", color: "green" },
-      duration: "2 Years",
+      duration: "1 Years",
       description:
         "Specialized preparation for JEE with focus on Physics, Chemistry, and Mathematics to secure top engineering colleges.",
       features: [
@@ -81,7 +81,7 @@ const CoursesSection = () => {
       title: "NEET Preparation Program",
       image: shadaburImage2,
       badge: { text: "Coming Soon", color: "red" },
-      duration: "2 Years",
+      duration: "1 Years",
       description:
         "Comprehensive preparation for NEET focusing on Biology, Physics, and Chemistry to secure admissions in top medical colleges.",
       features: [

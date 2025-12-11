@@ -12,8 +12,8 @@ const AboutSection = () => {
     },
     {
       icon: "fas fa-laptop",
-      title: "Modern Facilities",
-      description: "State-of-the-art classrooms, digital learning tools, well-equipped labs, and comfortable study environments enhance the learning experience."
+      title: "Well-Planned Facilities",
+      description: "Well-designed classrooms, a dedicated library space, and a comfortable study environment that supports focused and effective learning at GyanNest Academy."
     }
   ];
 
@@ -21,7 +21,7 @@ const AboutSection = () => {
     <section id="about" className="py-16 bg-neutral-lightest">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About Excellence Academy</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About GyanNest Academy</h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-gray-600 text-lg">Discover our journey, mission, and commitment to educational excellence</p>
         </div>

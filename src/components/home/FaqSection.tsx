@@ -100,7 +100,7 @@ const FaqSection = () => {
           {/* CTA */}
           <div className="mt-10 text-center">
             <p className="text-gray-600 mb-4">
-              Still have questions? We're here to help!
+              Still have questions? We're happy to help!
             </p>
             <a
               href="#contact"
