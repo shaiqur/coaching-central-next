@@ -63,7 +63,7 @@ const ContactSection = () => {
     {
       platform: "instagram",
       color: "bg-pink-600 hover:bg-pink-700",
-      link: "https://instagram.com/YOUR_USERNAME"
+      link: "https://instagram.com/gyannest_academy?igsh=MXY2MzB2dDhqOXBpYg%3D%3D&utm_source=qr"
     },
     {
       platform: "facebook",
@@ -73,7 +73,7 @@ const ContactSection = () => {
     {
       platform: "youtube",
       color: "bg-red-600 hover:bg-red-700",
-      link: "https://youtube.com/@YOUR_CHANNEL"
+      link: "https://www.youtube.com/@GyanNestAcademy"
     }
   ];
   
