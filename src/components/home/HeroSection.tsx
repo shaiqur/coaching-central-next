@@ -2,10 +2,10 @@
 //import shadaburImage2 from "@assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg";
 //import shadaburImage3 from "@assets/WhatsApp Image 2025-05-20 at 2.42.11 PM.jpeg";
 import Image from "next/image";
-import image1 from "../../../public/assets/image3.jpeg";
-import image2 from "../../../public/assets/image3.jpeg";
-import image3 from "../../../public/assets/image3.jpeg";
-import image4 from "../../../public/assets/image3.jpeg";
+import image1 from "../../../public/assets/hero.jpeg";
+import image2 from "../../../public/assets/hero.jpeg";
+import image3 from "../../../public/assets/hero.jpeg";
+import image4 from "../../../public/assets/hero.jpeg";
 
 const HeroSection = () => {
   return (

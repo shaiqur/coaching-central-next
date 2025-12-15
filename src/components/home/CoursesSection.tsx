@@ -4,9 +4,10 @@ import { useState } from "react";
 import Image from "next/image";
 
 // Import images from /public/assets (rename as needed)
-import shadaburImage1 from "/public/assets/image1.jpg";
-import shadaburImage2 from "/public/assets/image2.jpg";
-import shadaburImage3 from "/public/assets/image2.jpg";
+import BoardImage1 from "/public/assets/board1.png";
+import jeeimage1 from "/public/assets/jee.png";
+import neetimage1 from "/public/assets/NEET1.png";
+
 
 interface CourseType {
   id: number;
@@ -34,7 +35,7 @@ const CoursesSection = () => {
       id: 1,
       type: "school",
       title: "Comprehensive School Program",
-      image: shadaburImage1,
+      image: BoardImage1,
       badge: { text: "Grades 7-10", color: "blue" },
       duration: "1 Years",
       description:
@@ -49,7 +50,7 @@ const CoursesSection = () => {
       id: 2,
       type: "11-12",
       title: "Class 11th-12th Program",
-      image: shadaburImage2,
+      image: BoardImage1,
       badge: { text: "Coming Soon", color: "purple" },
       duration: "1-2 Years",
       description:
@@ -64,7 +65,7 @@ const CoursesSection = () => {
       id: 3,
       type: "jee",
       title: "JEE (Main & Advanced) Program",
-      image: shadaburImage3,
+      image: jeeimage1,
       badge: { text: "Coming Soon", color: "green" },
       duration: "1 Years",
       description:
@@ -79,7 +80,7 @@ const CoursesSection = () => {
       id: 4,
       type: "neet",
       title: "NEET Preparation Program",
-      image: shadaburImage2,
+      image: neetimage1,
       badge: { text: "Coming Soon", color: "red" },
       duration: "1 Years",
       description:
@@ -94,7 +95,7 @@ const CoursesSection = () => {
       id: 5,
       type: "jee",
       title: "JEE Crash Course",
-      image: shadaburImage1,
+      image: jeeimage1,
       badge: { text: "Coming Soon", color: "green" },
       duration: "6 Months",
       description:
@@ -109,7 +110,7 @@ const CoursesSection = () => {
       id: 6,
       type: "neet",
       title: "NEET Crash Course",
-      image: shadaburImage1,
+      image: neetimage1,
       badge: { text: "Coming Soon", color: "red" },
       duration: "6 Months",
       description:
@@ -149,7 +150,7 @@ const CoursesSection = () => {
         {/* Heading */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Our Academic Programs
+            Our Programs
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-gray-600 text-lg">
@@ -208,10 +209,10 @@ const CoursesSection = () => {
                   )}
 
                   {course.type === "school" && (
-                    <div className="absolute bottom-0 left-0 right-0 bg-green-600 py-1 text-white text-center">
-                      <span className="text-sm font-bold">
-                        Admissions Going On
-                      </span>
+  <div className="absolute bottom-0 left-0 right-0 bg-green-600 py-1 text-white text-center animate-pulse">
+    <span className="text-sm font-bold">
+      Admissions Going On
+    </span>
                     </div>
                   )}
                 </div>
