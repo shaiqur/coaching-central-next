@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import aspectRatio from "@tailwindcss/aspect-ratio"; // ← add this line
 
 const config: Config = {
   darkMode: "class",
@@ -95,6 +96,7 @@ const config: Config = {
   plugins: [
     require("tailwindcss-animate"),
     require("@tailwindcss/typography"),
+    aspectRatio, // ← add it here
   ],
 };
 

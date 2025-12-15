@@ -10,32 +10,38 @@ interface TeacherType {
   image: any;
   description: string;
   rating: number;
+  linkedin?: string;
+  email?: string;
 }
 
-import teacher1 from "../../../public/teachers/teacher1.jpg";
-import teacher2 from "../../../public/teachers/teacher2.jpg";
+import teacher1 from "../../../public/teachers/shadab.png";
+import teacher2 from "../../../public/teachers/Ather.jpeg";
 import teacher3 from "../../../public/teachers/teacher3.jpg";
 import teacher4 from "../../../public/teachers/teacher4.jpg";
 
 const TeachersSection = () => {
   const teachers: TeacherType[] = [
     {
-      id: 1,
-      name: "Shadabur Rahman",
-      position: "Mathematics | BE Computer Science",
-      image: teacher1,
-      description:
-        "2+ years of teaching experience with expertise in mathematics. Passionate about developing problem-solving skills in students.",
-      rating: 4.8,
+       id: 1,
+  name: "Shadabur Rahman",
+  position: "Mathematics | BE Computer Science",
+  image: teacher1,
+  description:
+    "2+ years of teaching experience with expertise in mathematics. Passionate about developing problem-solving skills in students.",
+  rating: 4.8,
+  linkedin: "https://linkedin.com/in/shadabur-rahman-6b7453129",
+  email: "mailto:shadabur.rahman@gyannestacademy.com",
     },
     {
       id: 2,
-      name: "Dr. Rajesh Sharma",
-      position: "Physics | IIT Delhi",
+      name: "Ather Naseem",
+      position: "Masters in Computer Application",
       image: teacher2,
       description:
-        "15+ years of teaching experience with expertise in mechanics and electromagnetism.",
-      rating: 4.9,
+        "4+ years of teaching experience with expertise in Mathematics and science.",
+      rating: 4.1,
+      linkedin: "https://linkedin.com/in/ather-naseem-285852196",
+      email: "mailto:athernaseem@gmail.com",
     },
     {
       id: 3,
@@ -64,11 +70,11 @@ const TeachersSection = () => {
         {/* Section Title */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Meet Our Expert Faculty
+            Know Some Of Our Expert Faculty
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-gray-600 text-lg">
-            Learn from experienced educators dedicated to your academic success.
+            Learn from experienced educators dedicated to your academic as well as competitive success.
           </p>
         </div>
 
@@ -101,19 +107,29 @@ const TeachersSection = () => {
                 <div className="flex justify-between items-center">
                   {/* Social Icons */}
                   <div className="flex space-x-3">
-                    <a
-                      href="#"
-                      className="text-gray-500 hover:text-primary transition-colors"
-                    >
-                      <Linkedin size={20} />
-                    </a>
-                    <a
-                      href="#"
-                      className="text-gray-500 hover:text-primary transition-colors"
-                    >
-                      <Mail size={20} />
-                    </a>
-                  </div>
+  {teacher.linkedin && (
+    <a
+      href={teacher.linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-2 rounded-full text-gray-500 hover:text-primary hover:bg-primary/10 transition"
+      aria-label="LinkedIn Profile"
+    >
+      <Linkedin size={20} />
+    </a>
+  )}
+
+  {teacher.email && (
+    <a
+      href={teacher.email}
+      className="p-2 rounded-full text-gray-500 hover:text-primary hover:bg-primary/10 transition"
+      aria-label="Email"
+    >
+      <Mail size={20} />
+    </a>
+  )}
+</div>
+
 
                   {/* Rating */}
                   <div className="flex items-center text-yellow-500">
@@ -132,7 +148,7 @@ const TeachersSection = () => {
             href="#contact"
             className="inline-block bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-full font-medium transition-colors duration-300"
           >
-            Join Our Faculty
+            Join As Our Faculty
           </a>
         </div>
       </div>

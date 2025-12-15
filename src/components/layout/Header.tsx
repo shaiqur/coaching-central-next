@@ -4,6 +4,8 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useScroll } from "@/hooks/use-scroll";
+import Image from "next/image";
+import Logo from "/public/assets/logo.png";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -39,12 +41,24 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo / Title */}
-          <Link href="#home" className="flex items-center space-x-2">
-            <div className="text-3xl font-bold">
-              <span className="text-[#0C3559]">GyanNest</span>{" "}
-              <span className="text-[#0C3559]">Academy</span>
-      <p className="text-sm text-gray-600 mt-1 tracking-wide text-center">
-    From Basics To Brilliance
+         <Link href="#home" className="flex items-center gap-3">
+  {/* Logo */}
+  <Image
+    src={Logo}
+    alt="GyanNest Academy Logo"
+    width={52}
+    height={52}
+    className="object-contain rounded-full"
+    priority
+  />
+
+  {/* Text */}
+  <div className="leading-tight">
+    <div className="text-2xl font-bold text-[#0C3559]">
+      GyanNest <span className="font-semibold">Academy</span>
+    </div>
+    <p className="text-xs text-gray-600 tracking-wide">
+      From Basics To Brilliance
   </p>
             </div>
           </Link>
