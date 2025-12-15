@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Excellence Academy | Coaching Central",
-  description: "Informational site for Excellence Academy coaching centre.",
+  title: "GyanNest Academy | Coaching Central",
+  description: "Informational site for GyanNest Academy coaching centre.",
 };
 
 export default function RootLayout({
