@@ -164,7 +164,7 @@ const CoursesSection = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             {[
               { key: "all", label: "All Courses" },
-              { key: "school", label: "School Academics (6-10th)" },
+              { key: "school", label: "School Academics (7-10th)" },
               { key: "11-12", label: "Classes 11th-12th" },
               { key: "jee", label: "JEE Preparation" },
               { key: "neet", label: "NEET Preparation" },

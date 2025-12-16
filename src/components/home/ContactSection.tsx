@@ -50,7 +50,7 @@ const ContactSection = () => {
     {
       icon: "mail",
       title: "Email",
-      content: ["gyannestacademy2026@gmail.com", "shadabur.rahman@gyannestacademy.com","athernaseem687@gmail.com"],
+      content: ["gyannestacademy2026@gmail.com"],
     },
     {
       icon: "clock",

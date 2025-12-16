@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GyanNest Academy | Coaching Central",
+  title: "GyanNest Academy | From Basics To Brilliance",
   description: "Informational site for GyanNest Academy coaching centre.",
 };
 

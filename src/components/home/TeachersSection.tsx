@@ -16,8 +16,8 @@ interface TeacherType {
 
 import teacher1 from "../../../public/teachers/shadab.png";
 import teacher2 from "../../../public/teachers/Ather.jpeg";
-import teacher3 from "../../../public/teachers/teacher3.jpg";
-import teacher4 from "../../../public/teachers/teacher4.jpg";
+import teacher3 from "../../../public/teachers/naved.jpeg";
+import teacher4 from "../../../public/teachers/noimage.png";
 
 const TeachersSection = () => {
   const teachers: TeacherType[] = [
@@ -45,20 +45,22 @@ const TeachersSection = () => {
     },
     {
       id: 3,
-      name: "Dr. Priya Gupta",
-      position: "Biology | AIIMS",
+      name: "Dr. Naved Anjum",
+      position: "Biology | Phd in Biochemistry",
       image: teacher3,
       description:
-        "NEET expert with 12+ years of teaching experience, specializing in human physiology.",
+        "6+ years of experience with Expertise in Biology and Chemistry.",
       rating: 4.8,
+        linkedin: "https://linkedin.com/in/naved-anjum-1b73a288",
+        email: "mailto:shadabur.rahman@gyannestacademy.com",
     },
     {
       id: 4,
-      name: "Prof. Anil Verma",
-      position: "Mathematics | IIT Kanpur",
+      name: "Anil Verma",
+      position: "Mathematics | Msc in Mathematics",
       image: teacher4,
       description:
-        "Mathematics expert for JEE Advanced with special focus on calculus and algebra.",
+        "Mathematics expert with special focus on calculus and algebra.",
       rating: 4.9,
     },
   ];
@@ -86,16 +88,18 @@ const TeachersSection = () => {
               className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all overflow-hidden"
             >
               {/* Teacher Image */}
-              <div className="relative w-full h-64">
+              <div className="relative w-full aspect-[3/4]">
+
                 <Image
-                  src={teacher.image}
-                  alt={teacher.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw,
-                         (max-width: 1200px) 50vw,
-                         25vw"
-                />
+  src={teacher.image}
+  alt={teacher.name}
+  fill
+  className="object-cover object-top"
+  sizes="(max-width: 768px) 100vw,
+         (max-width: 1200px) 50vw,
+         25vw"
+/>
+
               </div>
 
               {/* Teacher Info */}
