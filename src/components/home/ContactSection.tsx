@@ -68,7 +68,7 @@ const ContactSection = () => {
     {
       platform: "facebook",
       color: "bg-blue-600 hover:bg-blue-700",
-      link: "https://facebook.com/YOUR_PAGE"
+      link: "https://facebook.com/share/1ARcqwS1h9/?mibextid=wwXIfr"
     },
     {
       platform: "youtube",
